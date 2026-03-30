@@ -1,0 +1,21 @@
+[tool.black]
+line-length = 120
+
+[project]
+name = "agts-client"
+version = "1.0.0"
+description = "User-code space"
+requires-python = "==3.12.*"
+dependencies = [
+    "black>=25.1.0",
+    "fastapi>=0.116.1",
+    "openlog>=2.1.0",
+    "requests>=2.32.5",
+    "uvicorn>=0.35.0",
+    "robotpy>=2025.3.2.2",
+    "robotpy-native-wpimath>=2025.3.2",
+    "simple-pid>=2.0.1",
+    "crc8>=0.2.1",
+    "jupyterlab>=4.4.7",
+    "notebook>=7.4.5",
+]

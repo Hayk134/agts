@@ -1,0 +1,19 @@
+[tool.black]
+line-length = 120
+
+[project]
+name = "agts-ats"
+version = "1.2.0"
+description = "Automatic Tracking System"
+requires-python = "==3.12.*"
+dependencies = [
+    "arcade>=3.3.2",
+    "black>=25.1.0",
+    "crc8>=0.2.1",
+    "fastapi>=0.116.1",
+    "openlog>=2.1.0",
+    "requests>=2.32.5",
+    "ruff>=0.14.9",
+    "ty>=0.0.1a34",
+    "uvicorn>=0.35.0",
+]
